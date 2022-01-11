@@ -18,6 +18,10 @@ body{
     align-items: center;
 }
 h1{color: #1877f2;padding: 20px;}
+from-wraper{
+    max-width: 416px;
+    margin: auto;
+}
 form{
     display: flex;
     flex-flow: column;
