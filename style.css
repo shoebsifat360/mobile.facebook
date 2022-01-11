@@ -18,9 +18,13 @@ body{
     align-items: center;
 }
 h1{color: #1877f2;padding: 20px;}
-from-wraper{
+.wraper{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
     max-width: 416px;
-    margin: auto;
 }
 form{
     display: flex;
@@ -33,7 +37,7 @@ form input{
     outline-color: #1877f2;
 }
 form input, .login,.creat{
-    width: 400px;
+    width: 25rem;
     border: 1px solid #90949c;
     border-radius: 6px;
     padding: 12px;
