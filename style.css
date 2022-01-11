@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+}
+h1{color: #1877f2;padding: 20px;}
+form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+}
+form input{
+    outline-color: #1877f2;
+}
+form input, .login,.creat{
+    width: 400px;
+    border: 1px solid #90949c;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 5px 0px;
+    background: #e8f0fe;
+}
+form .login{
+    background: #1877f2;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+form a{
+    text-decoration: none;
+    margin: 10px;
+    color: #1877f2;
+    forced-color-adjust: #1877f2;
+}
+form p{
+    position: relative;
+    margin: 20px 5px;
+    color: #1877f2;
+}
+form p::after{
+    content: "";
+    border-bottom: 1px solid #90949c;
+    position: absolute;
+    width: 170px;
+    top: 50%;
+    right: 30px;
+}
+form p::before{
+    content: "";
+    border-bottom: 1px solid #90949c;
+    position: absolute;
+    width: 170px;
+    top: 50%;
+    left: 30px;
+}
+form .creat{
+    background: #00a400;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    font-size: 17px;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.container .cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+   
+}
+.container .leftcont{
+    display: flex;
+}
+.container .cont ul{}
+.container .cont ul li{}
+.container .cont ul li a{
+    color: #90949c;
+}
+.container .cont ul li a i{
+    font-size: 20px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.copy a{
+    color: #90949c;
+    font-size: 12px;
+    
+}
